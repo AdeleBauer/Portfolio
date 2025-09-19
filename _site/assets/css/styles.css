@@ -1,0 +1,12 @@
+h1 {
+  text-align: center;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+}
+
+.current {
+  color: green;
+}
+
+/*# sourceMappingURL=styles.css.map */
