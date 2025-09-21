@@ -1,0 +1,39 @@
+<div class="card">
+
+    {% if include.title %}
+    <h1 class="cardTitle">{{ include.title}}</h1>
+    {% endif %}
+
+    <div class="cardOuter">
+        
+        <div class="cardLeft">
+            
+            {% if include.text %}
+            <p class="cardText"> {{ include.text }}</p>
+            {% endif %}
+            
+            {% if include.gif %}
+            <img src="{{ include.gif }}" class="cardGif"></img>
+            {% endif %}
+        
+        </div>
+
+        <div class="cardRight">
+            
+            {% if include.video%}
+            <div class="cardVideo">
+                {{ include.video }}
+            </div>
+            {% endif %}
+            
+            {% if include.itch%}
+            <div class="cardItch">
+                {{ include.itch }}
+            </div>
+            {% endif %}
+        
+        </div>
+        
+    </div>
+</div>
+

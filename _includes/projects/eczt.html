@@ -1,0 +1,27 @@
+{% capture itch_html %}
+<iframe frameborder="0" 
+    src="https://itch.io/embed/3600156" 
+    width="552" height="167">
+    <a href="https://cosmic-coda.itch.io/eczt">Elusive Core: Zero Trace (DARE2025) by Cosmic Coda</a>
+</iframe>
+{% endcapture %}
+
+{% capture video_html %}
+    <iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/3I9ETrJZ3II?si=1Hsrr4xAR8OrAlfe" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+{% endcapture %}
+
+
+{% include card.html 
+    title="Elusive Core: Zero Trace" 
+    text="Elusive Core: Zero Trace is a stealth platformer that I worked on in 3rd year of CGAD, together with 7 other students of various roles.<br><br>
+            It's made in Unity, and I helped design the game as well as program it."<br><br>
+            
+    gif="assets\images\DewottPiss.gif"
+    video=video_html
+    itch=itch_html
+%}
