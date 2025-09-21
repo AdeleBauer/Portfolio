@@ -113,12 +113,13 @@ body {
   max-width: 100%;
 }
 
-.cardVideo {
-  height: 60%;
+.cardOuter .cardRight .cardVideo {
+  flex: 60%;
 }
 
-.cardItch {
-  height: 40%;
+.cardOuter .cardRight .cardItch {
+  flex: 40%;
+  margin-top: 20px;
 }
 
 .cardOuter .cardLeft {
