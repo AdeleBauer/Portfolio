@@ -17,18 +17,46 @@
 #bigBox {
   margin-left: 1vw;
   margin-right: 1vw;
-  margin-top: 5vh;
+  margin-top: 1vh;
   padding-bottom: 2vh;
   padding-top: 2vh;
   padding-right: 1vw;
   padding-left: 1vw;
   max-width: 32vw;
-  display: inline-block;
+  position: fixed;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 #desc {
   max-width: 28vw;
   display: inline-block;
+  margin-bottom: 1vh;
+  flex: 100%;
+}
+
+#skills {
+  flex: 40%;
+  max-width: 38%;
+  margin-right: 0.5vw;
+}
+
+#experience {
+  flex: 40%;
+  max-width: 38%;
+  margin-left: 0.5vw;
+}
+
+.divider {
+  display: flex;
+  flex-flow: column nowrap;
+  max-height: 35vh;
+}
+
+.divider p {
+  flex: 2vh;
+  max-height: 5vh;
 }
 
 h1 {
@@ -46,7 +74,7 @@ p {
 }
 
 nav {
-  height: 70px;
+  height: 30px;
   overflow: hidden;
   padding-left: 100px;
   padding-right: 100px;
@@ -109,7 +137,7 @@ body {
   align-items: end;
 }
 
-.cardOuter .cardRight iframe {
+.cardOuter .cardRight * {
   max-width: 100%;
 }
 
@@ -132,6 +160,7 @@ body {
 
 .cardText {
   text-align: center;
+  padding-right: 1vw;
 }
 
 .cardGif {
