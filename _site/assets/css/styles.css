@@ -153,6 +153,7 @@ body {
 
 .linkImg {
   max-height: 6vh;
+  max-width: 6vw;
   padding-top: 1vh;
   padding-left: 5px;
   padding-right: 5px;
