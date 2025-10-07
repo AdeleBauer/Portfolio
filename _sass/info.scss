@@ -1,0 +1,98 @@
+
+.textBox {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 14px;
+
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+#bigBox {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 1vh;
+
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    padding-right: 1vw;
+    padding-left: 1vw;
+
+    max-width: 32vw;
+    //max-height: 80vh;
+    position: fixed;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#desc {
+    //width: 28vw;
+    max-width: 28vw;
+    display: inline-block;
+    margin-bottom: 1vh;
+
+    flex: 100%;
+}
+
+#skills {
+    flex: 40%;
+    max-width: 38%;
+    margin-right: 0.5vw;
+}
+
+#skills h1 {
+    margin-bottom: 2px;
+}
+
+#experience {
+    flex: 40%;
+    max-width: 38%;
+    margin-left: 0.5vw;
+    // float: right;
+}
+
+#experience h1 {
+    margin-bottom: 2px;
+}
+
+.divider {
+    display: flex;
+    flex-flow: column nowrap;
+    max-height: 35vh;
+}
+
+.divider p {
+    flex:1vh;
+    margin: 1px;
+    max-height: 5vh;
+}
+
+#contact {
+    margin-top: 1vh;
+    max-width: 28vw;
+    flex: 100%;
+}
+
+#contact a {
+    color: white;
+}
+
+.linkBox {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 14px;
+
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 1vh;
+}
