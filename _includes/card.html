@@ -11,6 +11,10 @@
             {% if include.text %}
             <p class="cardText"> {{ include.text }}</p>
             {% endif %}
+
+            {% if include.link %}
+            <a class="cardLink" href="{{ include.link }}"> {{ include.linktext }}</a>
+            {% endif %}
             
             {% if include.gif %}
             <img src="{{ include.gif }}" class="cardGif"></img>

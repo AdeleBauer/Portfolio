@@ -159,6 +159,16 @@ body {
   padding-right: 5px;
 }
 
+.pdfContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.pdf {
+  margin: 0;
+  padding: 0;
+}
+
 .card {
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 14px;
@@ -194,6 +204,13 @@ body {
 
 .cardOuter .cardRight .cardVideo {
   flex: 60%;
+  max-height: 60vh;
+}
+
+.cardOuter .cardRight .cardVideo img {
+  flex: 60%;
+  margin-right: 3vw;
+  max-height: 60vh;
 }
 
 .cardOuter .cardRight .cardItch {
@@ -216,6 +233,16 @@ body {
 
 .cardGif {
   height: fit-content;
+}
+
+.cardLeft a {
+  text-align: center;
+  padding-right: 1vw;
+  text-align: center;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=styles.css.map */

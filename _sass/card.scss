@@ -45,7 +45,15 @@
 .cardOuter .cardRight .cardVideo {
     flex: 60%;
     //position: relative;
-    //max-height: 33vw;
+    max-height: 60vh;
+    //padding-bottom: 56.25%;
+}
+
+.cardOuter .cardRight .cardVideo img {
+    flex: 60%;
+    //position: relative;
+    margin-right: 3vw;
+    max-height: 60vh;
     //padding-bottom: 56.25%;
 }
 
@@ -73,4 +81,16 @@
     //justify-self: end;
     height: fit-content;
     
+}
+
+.cardLeft a {
+    text-align: center;
+    padding-right: 1vw;
+
+    
+    text-align: center; 
+    color: white; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-weight: bold;
+    font-size: 15px; 
 }
