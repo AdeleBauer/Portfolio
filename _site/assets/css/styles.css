@@ -60,7 +60,7 @@ body {
 }
 
 .textBox {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 14px;
   padding-top: 1vh;
   padding-bottom: 1vh;
@@ -74,11 +74,13 @@ body {
   margin-left: 1vw;
   margin-right: 1vw;
   margin-top: 1vh;
-  padding-bottom: 2vh;
-  padding-top: 2vh;
-  padding-right: 1vw;
-  padding-left: 1vw;
+  margin-bottom: 1vh;
+  padding-bottom: 0vh;
+  padding-top: 0vh;
+  padding-right: 0vw;
+  padding-left: 0vw;
   max-width: 32vw;
+  height: 90vh;
   position: fixed;
   display: flex;
   flex-flow: row wrap;
@@ -127,11 +129,13 @@ body {
 #contact {
   margin-top: 1vh;
   max-width: 28vw;
+  max-height: 25vh;
   flex: 100%;
 }
 
-#contact a {
+.textBox a {
   color: white;
+  font-weight: bold;
 }
 
 .linkBox {
@@ -173,7 +177,7 @@ body {
 }
 
 .card {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 14px;
   padding-top: 1vh;
   padding-bottom: 1vh;
@@ -235,7 +239,7 @@ body {
 }
 
 .cardGif {
-  height: fit-content;
+  height: auto;
 }
 
 .cardLeft a {

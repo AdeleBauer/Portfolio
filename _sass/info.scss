@@ -1,6 +1,6 @@
 
 .textBox {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 14px;
 
     padding-top: 1vh;
@@ -16,14 +16,15 @@
     margin-left: 1vw;
     margin-right: 1vw;
     margin-top: 1vh;
+    margin-bottom: 1vh;
 
-    padding-bottom: 2vh;
-    padding-top: 2vh;
-    padding-right: 1vw;
-    padding-left: 1vw;
+    padding-bottom: 0vh;
+    padding-top: 0vh;
+    padding-right: 0vw;
+    padding-left: 0vw;
 
     max-width: 32vw;
-    //max-height: 80vh;
+    height: 90vh;
     position: fixed;
     
     display: flex;
@@ -76,11 +77,13 @@
 #contact {
     margin-top: 1vh;
     max-width: 28vw;
+    max-height: 25vh;
     flex: 100%;
 }
 
-#contact a {
+.textBox a {
     color: white;
+    font-weight: bold;
 }
 
 .linkBox {
