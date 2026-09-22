@@ -94,3 +94,29 @@
     font-weight: bold;
     font-size: 15px; 
 }
+
+@media screen and (max-width:960px) {
+    .projectContainer {
+        max-width: 100vw;
+        padding: 0;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+    
+    .card {
+        align-self: center;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+
+        padding-bottom: 1vh;
+        padding-top: 1vh;
+        padding-right: 1vw;
+        padding-left: 1vw;
+
+        max-width: 90vw;
+    }
+}

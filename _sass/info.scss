@@ -116,6 +116,31 @@
 
 }
 
+@media screen and (max-width:960px) {
+    #bigBox {
+        max-width: 100vw; 
+        position: relative;
+    }
+
+    #desc {
+        max-width: 100vw;
+    }
+
+    #contact {
+        max-width: 100vw;
+    }
+
+    #experience {
+        flex: 45%;
+        max-width: 45vw;
+    }
+
+    #skills {
+        flex: 45%;
+        max-width: 45vw;
+    }
+}
+
 .pdfContainer {
     display: flex;
     flex-flow: row, nowrap;
